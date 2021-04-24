@@ -14,28 +14,28 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--[if lte IE 8]>
-        <link rel="stylesheet" href="{$app_url}/css/main-grid-old-ie.css">
+        <link rel="stylesheet" href="{$conf->app_url}/css/main-grid-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="{$app_url}/css/main-grid.css">
+        <link rel="stylesheet" href="{$conf->app_url}/css/main-grid.css">
     <!--<![endif]-->
 
     <!--[if lte IE 8]>
-        <link rel="stylesheet" href="{$app_url}/css/layouts/marketing-old-ie.css">
+        <link rel="stylesheet" href="{$conf->app_url}/css/layouts/marketing-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="{$app_url}/css/layouts/marketing.css">
+        <link rel="stylesheet" href="{$conf->app_url}/css/layouts/marketing.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="{$app_url}/css/style.css">
+    <link rel="stylesheet" href="{$conf->app_url}/css/style.css">
 {if $hide_intro }
-    <link rel="stylesheet" href="{$app_url}/css/style_hide_intro.css">
+    <link rel="stylesheet" href="{$conf->app_url}/css/style_hide_intro.css">
 {/if}
 	
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
-	<script src="{$app_url}/js/jquery.min.js"></script>
-	<script src="{$app_url}/js/softscroll.js"></script>
+	<script src="{$conf->app_url}/js/jquery.min.js"></script>
+	<script src="{$conf->app_url}/js/softscroll.js"></script>
 
 </head>
 
