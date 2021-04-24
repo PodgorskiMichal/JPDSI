@@ -1,0 +1,78 @@
+{extends file="../templates/main.tpl"}
+
+{block name=footer}Przykładowa stopka{/block}
+
+{block name=content}
+
+<h2 class="content-head is-center">Kalkulator</h2>
+
+<div class="pure-g">
+    <div class="l-box-lrg pure-u-1 pure-u-med-2-5">
+        <form class="pure-form pure-form-stacked" action="{$app_url}/app/calc.php" method="post"">
+            <fieldset class="lol">
+
+                <label for="id_kw">Kwota: </label>
+                <input id="id_kw" class="ip" type="text" name="kw" style="width: 9em" placeholder="Kwota" value="{$form['kw']}">
+
+                <label for="id_ll">Liczba lat: </label>
+                <input id="id_x" type="text" name="ll" style="width: 9em" placeholder="Liczba lat" value="{$form['ll']}">
+
+                <label for="id_op">Oprocentowanie: </label>
+
+                <select id="id_op" name="op" style="width: 9em">
+
+                    <option value="0">0%</option>
+                    <option value="1">1%</option>
+                    <option value="2">2%</option>
+                    <option value="3">3%</option>
+                    <option value="4">4%</option>
+                    <option value="5">5%</option>
+
+                </select>
+
+                <button type="submit" class="pure-button pure-button-primary" >Oblicz</button>
+            </fieldset>
+        </form>
+    </div>
+
+<div class="l-box-lrg pure-u-1 pure-u-med-3-5">
+
+    {* wyświeltenie listy błędów, jeśli istnieją *}
+    {if isset($messages)}
+        {if count($messages) > 0}
+            <h4>Wystąpiły błędy: </h4>
+            <ol class="err">
+                {foreach  $messages as $msg}
+                    {strip}
+                        <li>{$msg}</li>
+                    {/strip}
+                {/foreach}
+            </ol>
+        {/if}
+    {/if}
+
+    {* wyświeltenie listy informacji, jeśli istnieją *}
+    {if isset($infos)}
+        {if count($infos) > 0}
+            <h4>Informacje: </h4>
+            <ol class="inf">
+                {foreach  $infos as $msg}
+                    {strip}
+                        <li>{$msg}</li>
+                    {/strip}
+                {/foreach}
+            </ol>
+        {/if}
+    {/if}
+
+    {if isset($result)}
+        <h4>Wynik</h4>
+        <p class="res">
+            {$result}
+        </p>
+    {/if}
+
+</div>
+</div>
+
+{/block}
