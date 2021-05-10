@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-04-20 17:41:34
+/* Smarty version 3.1.39, created on 2021-05-07 02:25:37
   from 'C:\xampp\htdocs\github\JPDSI\Kalkulator_06_b\app\views\CalcView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_607ef62eb7a475_28712587',
+  'unifunc' => 'content_60948901c8a752_96682253',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '66ecd811d172170a2e68fb8683b55d87f8627437' => 
     array (
       0 => 'C:\\xampp\\htdocs\\github\\JPDSI\\Kalkulator_06_b\\app\\views\\CalcView.tpl',
-      1 => 1618928494,
+      1 => 1620347121,
       2 => 'file',
     ),
   ),
@@ -20,28 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_607ef62eb7a475_28712587 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60948901c8a752_96682253 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_125427362607ef62eb6ee69_42971443', 'footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_105397632460948901c1bca3_25325809', 'footer');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_74225123607ef62eb6f653_10118059', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_115010417660948901c1f441_26976563', 'content');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "main.tpl");
 }
 /* {block 'footer'} */
-class Block_125427362607ef62eb6ee69_42971443 extends Smarty_Internal_Block
+class Block_105397632460948901c1bca3_25325809 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'footer' => 
   array (
-    0 => 'Block_125427362607ef62eb6ee69_42971443',
+    0 => 'Block_105397632460948901c1bca3_25325809',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -51,12 +51,12 @@ Przykładowa stopka<?php
 }
 /* {/block 'footer'} */
 /* {block 'content'} */
-class Block_74225123607ef62eb6f653_10118059 extends Smarty_Internal_Block
+class Block_115010417660948901c1f441_26976563 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_74225123607ef62eb6f653_10118059',
+    0 => 'Block_115010417660948901c1f441_26976563',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

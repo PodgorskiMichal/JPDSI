@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="pl">
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 
 <head>
     <meta charset="utf-8">
@@ -38,6 +38,8 @@
 	<script src="{$conf->app_url}/js/softscroll.js"></script>
 
 </head>
+
+
 
 <body>
 
